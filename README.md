@@ -89,6 +89,9 @@ Payload: {
     "roles": ["ADMIN"]
 }
 
+![image](https://user-images.githubusercontent.com/50915470/180022553-831f82ad-0f4c-4392-82e5-fdd8e691bb94.png)
+
+
 User Added in User collection in Retail DB 
 
 ![image](https://user-images.githubusercontent.com/50915470/180015655-ab17cf2e-8a40-48df-9965-d6b8a0381cdd.png)
@@ -104,11 +107,18 @@ Payload: {
     "password":"12345278"
 }
 
+
+![image](https://user-images.githubusercontent.com/50915470/180022830-46a8aa5b-2f8f-41d9-8592-9e03ae1dedc6.png)
+
+
 Task: Fetch Products list
 
 Endpoint: http://localhost:8089/api/products
 
 Method: GET
+
+![image](https://user-images.githubusercontent.com/50915470/180023292-1986aa6f-3926-4385-9bba-62aa273cc29b.png)
+
 
 Task: Delete Products
 
@@ -119,6 +129,10 @@ Method : POST
 Payload : {
     "product_id":"SKU2345"
 }
+
+
+![image](https://user-images.githubusercontent.com/50915470/180023517-ae0c19b7-1911-403b-a1af-e336f0c60a66.png)
+
 
 Task: Upate the product details
 
@@ -135,6 +149,9 @@ Payload: {
  }
 
 }
+
+![image](https://user-images.githubusercontent.com/50915470/180024272-1915c0df-3bdf-4854-be5b-aa59a6742639.png)
+
 
 Task: Items Upload
 
@@ -154,6 +171,9 @@ Payload: {
     ]
 }
 
+![image](https://user-images.githubusercontent.com/50915470/180024446-a6643915-d39d-43e2-849d-0167ff91dbfc.png)
+
+
 Task : Define method   verifyToken,
   isAdmin,
   isSELLER,
@@ -165,6 +185,15 @@ Task : Define method   verifyToken,
   Below are the routers which are routing the request based on the user profile 
   
   ![image](https://user-images.githubusercontent.com/50915470/180021206-8fe1d39f-715a-499e-a67e-194898ba4835.png)
+  
+  
+  check for unauthorised   role 
+  
+  ![image](https://user-images.githubusercontent.com/50915470/180025045-9398299f-075d-4864-9a87-b0c8fd5fb1c5.png)
+  
+  
+  
+
 
   
 
