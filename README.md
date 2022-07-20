@@ -154,5 +154,19 @@ Payload: {
     ]
 }
 
+Task : Define method   verifyToken,
+  isAdmin,
+  isSELLER,
+  isSUPPORTER,
+  isCUSTOMER  
+  in  authJwt.js in middleware directory for verifing the right role to perform UPdate, delete, insert in products table.
+  
+  
+  Below are the routers which are routing the request based on the user profile 
+  
+  ![image](https://user-images.githubusercontent.com/50915470/180021206-8fe1d39f-715a-499e-a67e-194898ba4835.png)
+
+  
+
 
 
